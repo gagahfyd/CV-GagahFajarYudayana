@@ -3,7 +3,7 @@
         <div class="row align-items-center">
             <div class="col-md-3">
                 <div class="profile-image mb-3">
-                    <img src="{{ asset('images/profile/profile-picture.jpg') }}" 
+                    <img src="{{ asset('images/profile.jpg') }}" 
                          alt="Profile Picture" 
                          class="rounded-circle img-fluid"
                          style="width: 150px; height: 150px; object-fit: cover;">

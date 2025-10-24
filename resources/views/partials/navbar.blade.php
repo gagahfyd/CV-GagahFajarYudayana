@@ -3,10 +3,11 @@
         <div class="row align-items-center">
             <div class="col-md-3">
                 <div class="profile-image mb-3">
-                    <img src="{{ asset('images/profile.jpg') }}" 
+                    <img src="{{ asset('images/profile-picture.JPG') }}" 
                          alt="Profile Picture" 
                          class="rounded-circle img-fluid"
-                         style="width: 150px; height: 150px; object-fit: cover;">
+                         style="width: 150px; height: 150px; object-fit: cover;"
+                         onerror="this.src='https://via.placeholder.com/150x150/667eea/ffffff?text=GF'">
                 </div>
             </div>
             <div class="col-md-9 text-md-start">
